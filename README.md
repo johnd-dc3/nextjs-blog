@@ -8,15 +8,15 @@ Notes:
 # File structure
 
 components
-|- layout.js (includes header and depending on the props it receives will return a different layout).
-If it receives the `home` prop it will return layout for index page
-|- layout.module.css
-|
-lib (utility functions)
-|-posts.js (utility functions to parse markdown data from blog posts)
-|
-pages
-|-posts (contains routes for blog posts)
+|- layout.js (includes header and depending on the props it receives will return a different layout).  
+If it receives the `home` prop it will return layout for index page  
+|- layout.module.css  
+|  
+lib (utility functions)  
+|-posts.js (utility functions to parse markdown data from blog posts)  
+|  
+pages  
+|-posts (contains routes for blog posts)  
 |-[id].js (dynamically generate routes)
 
 # Pre-rendering and Data fetching
